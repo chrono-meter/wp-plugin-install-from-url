@@ -1,0 +1,5 @@
+{
+    "scripts": {
+        "zip": "npx --yes @chrono-meter/wp-zip-package --source-directory=./ --output=./release/"
+    }
+}
