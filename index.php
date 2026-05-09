@@ -2,7 +2,7 @@
 /*
  * Plugin Name:       wp-plugin-install-from-url
  * Description:       Install a plugin from a URL (e.g., GitHub repository, Zip file).
- * Version:           0.2.0
+ * Version:           0.2.1
  * Requires at least: 6.0
  * Requires PHP:      8.0
  * Author:            Itou Kousuke
@@ -16,6 +16,7 @@
 // phpcs:disable Generic.Files.OneObjectStructurePerFile.MultipleFound
 namespace CmPluginInstallFromURL;
 
+use WP_Error;
 use CmPluginInstallFromURL\Dependency\ChronoMeter\WpDeclarativeHook\Hook;
 use CmPluginInstallFromURL\Dependency\ChronoMeter\WpDeclarativeHook\Filter;
 use CmPluginInstallFromURL\Dependency\ChronoMeter\WpDeclarativeHook\Action;
