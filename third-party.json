@@ -1,0 +1,19 @@
+{
+    "require": {
+        "chrono-meter/wp-declarative-hook": "1.0.1"
+    },
+    "require-dev": {
+        "chrono-meter/composer-plugin-for-wp": "*"
+    },
+    "config": {
+        "vendor-dir": "third-party.tmp",
+        "allow-plugins": {
+            "chrono-meter/composer-plugin-for-wp": true
+        }
+    },
+    "extra": {
+        "scoper": {
+            "prefix": "CmPluginInstallFromURL\\Dependency"
+        }
+    }
+}
