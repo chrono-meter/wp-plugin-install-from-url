@@ -1,6 +1,7 @@
 {
     "require": {
-        "chrono-meter/wp-declarative-hook": "1.0.1"
+        "chrono-meter/wp-declarative-hook": "1.0.1",
+        "z4kn4fein/php-semver": "^3.0"
     },
     "require-dev": {
         "chrono-meter/composer-plugin-for-wp": "*"

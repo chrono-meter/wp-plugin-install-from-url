@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "ci:build": "COMPOSER=third-party.json composer update",
+    "//ci:test": "npm ci --force && npm run test"
+  }
+}
