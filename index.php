@@ -49,5 +49,7 @@ function install_class_loader( string $namespace_prefix, string $basedir ): void
 install_class_loader( __NAMESPACE__, __DIR__ . '/class' );
 Hook::install_static_methods( Registry::class );
 Hook::install_static_methods( Hooks::class );
-Hook::install_static_methods( DevHooks::class );
+if ( ! wp_is_development_mode( 'plugin' ) ) {
+	Hook::install_static_methods( DevHooks::class );
+}
 Hook::install_static_methods( Handlers\GitHub::class );

@@ -5,11 +5,6 @@ use CmPluginInstallFromURL\Dependency\ChronoMeter\WpDeclarativeHook\Filter;
 use CmPluginInstallFromURL\Dependency\ChronoMeter\WpDeclarativeHook\Action;
 
 
-if ( ! wp_is_development_mode( 'plugin' ) ) {
-	return;
-}
-
-
 class DevHooks {
 	#[Filter( 'views_plugins' )]
 	public static function add_test_view( $views ) {
