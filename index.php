@@ -2,7 +2,7 @@
 /*
  * Plugin Name:       wp-plugin-install-from-url
  * Description:       Install a plugin from a URL (e.g., GitHub repository, Zip file).
- * Version:           0.3.0
+ * Version:           0.3.1
  * Requires at least: 6.2
  * Requires PHP:      8.0
  * Author:            Itou Kousuke
